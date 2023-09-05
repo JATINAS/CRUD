@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Calendar BD</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="myscript.js"></script>
+    </head>
+
+    <body class="fondo">
+        <header>
+            <div>
+                <img class="logo" src="images/uroborostur.jpg" alt="logo" width="80" height="80">
+                <a href="#" style="float: right; margin-top: 2%;">Proyecto 2: Calendario CRUD</a>
+            </div>
+        </header>
+
+        <jumbotron class="titulo">
+            <h1>Mi Agenda</h1>
+            <div class="body">
+                <form>
+                    <label class="nombres" for="homework">Homework</label><br>
+                    <input class="entradas" type="text" id="tarea" value><br>
+                    <label class="nombres" for="descrip">Description</label><br>
+                    <input class="entradas" type="text" id="detalles" name="detalles" value><br>   
+                    <input style="margin-top: 10px;" type="button" onclick="registro()" value="Ingresar">
+                                     
+                </form>
+            </div>
+            <div>
+                <ul id="lista"></ul>
+            </div>
+        </jumbotron>
+
+        <footer>
+            <div class="footer">
+                <div class="fondofooter">
+                    <div class="contenido">
+                        <div class="texto footer">
+                            <h3 id="lista" class="textocontenido">No hay tareas pendientes</h3>
+                            <p id = "demo1" class="textocontenido"></p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

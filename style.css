@@ -1,0 +1,48 @@
+.fondo {
+    background-color: beige;
+}
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-left: 0.5rem;
+    padding-right: 0.5rem;*/
+}
+.nombres {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    line-height: 1.5rem;
+}
+.entradas {
+    width: 80%;
+    padding-left: 1%;
+    /*display: block;*/
+}
+.titulo {
+    text-align: center;
+}
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.fondofooter {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: rgb(229, 231, 235);
+}
+.contenido {
+    display: flex;
+}
+.texto footer {
+    margin-left: 0.75rem;
+}
+.textocontenido {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
