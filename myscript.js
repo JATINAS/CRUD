@@ -7,7 +7,7 @@ let descripcion = document.getElementById("detalles")
 let tareas = localStorage.getItem("tareas")? JSON.parse(localStorage.getItem("tareas")): []
 let editando = false
 let tareaprevia = ""
-
+localStorage = ""
 function registro() {
     if (editando) {
         tareas = tareas.map(tarea => {
@@ -29,6 +29,9 @@ function registro() {
     //console.log(document.getElementById("detalles").value)
     localStorage.setItem("tareas", JSON.stringify(tareas))
     acualizarlista()
+
+    document.getElementById("tarea").value = ""
+    document.getElementById("detalles").value = ""
 }
 
 function acualizarlista () {
